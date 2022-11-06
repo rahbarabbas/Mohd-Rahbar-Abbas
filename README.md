@@ -7,7 +7,7 @@ You should have latest version of nodeJs installed on your machine.
 A web browser
 Steps
 Open your terminal and follow below steps
-git clone https://github.com/kumarsumit009/Assignment-JAXL.git
+git clone https://github.com/rahbarabbas/Mohd-Rahbar-Abbas.git
 npm i
 npm start
 Dependency

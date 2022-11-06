@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="assets/Icons/login.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="JAXL Assignment by Sumit Kumar" />
+  <link rel="apple-touch-icon" href="assets/Icons/login.ico" />
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/login.css" />
+  <!-- scripts -->
+  <script src="assets/scripts/script.js" type="text/javascript"></script>
+  <title>Login | JAXL</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="container-login">
+      <div class="logo-main">
+        <img src="assets/images/jaxlLogo.jpg" alt="JAXL innovations" />
+      </div>
+      <div class="stack" id="stack">
+        <img src="assets/images/login.png" alt="login" height="50px" width="auto" />
+        <h2>Login</h2>
+        <!-- Email -->
+        <div class="textfield" id="textfield">
+          <span>Email</span>
+          <div class="Input">
+            <div class="Input-icon">
+              <img src="assets/images/email.png" height="auto" width="25px" />
+            </div>
+            <input id="Email" type="email" placeholder="example@jaxl.com" />
+            <img class="email-correct" src="assets/images/correct.png" height="20px" width="auto" id="email-icon" />
+          </div>
+          <span class="helperText">Please Enter Your Email Id to Login</span>
+        </div>
+        <!-- send OTP -->
+        <div class="button login-btn" id="otp-btn">Request OTP</div>
+
+        <!-- OTP -->
+        <div class="otp" id="otp">
+          <div class="textfield">
+            <span>OTP</span>
+            <div class="Input">
+              <div class="Input-icon">
+                <img src="assets/images/otp.png" height="auto" width="25px" />
+              </div>
+              <input type="text" placeholder="897679" id="OTP" />
+              <img class="email-correct" src="assets/images/correct.png" height="20px" width="auto" id="otp-icon" />
+            </div>
+            <span class="helperText">Please Enter OTP recieved to login</span>
+          </div>
+          <div class="button login-btn" id="login-btn">Verify OTP</div>
+          <div class="button login-btn" id="otp-btn-resend">Request Another OTP</div>
+        </div>
+      </div>
+      <!-- Alert -->
+      <div class="alert" id="alert">
+        <img src="assets/images/alert.png" height="20px" width="auto" />
+        <span class="alert-txt" id="alert-txt">This is an alert</span>
+      </div>
+      <div class="loggedIn" id="loggedIn">
+        <img src="assets/images/correct.png" alt="Logged In" height="50px" width="auto" />
+        <p class="loggedIn-email" id="loggedIn-email"></p>
+        <span class="chip">Logged In!</span>
+      </div>
+      <div class="button logout-btn" id="logout-btn">Logout</div>
+    </div>
+  </div>
+
+
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'nunito', sans-serif;
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    padding: 15px 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Staatliches", sans-serif;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: calc(100vh - 40px);
+}
+
+.stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hide {
+    display: none;
+}
+
+.button {
+    color: whitesmoke;
+    padding: 5px 24px;
+    border: 1px solid rgba(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Staatliches", sans-serif;
+    letter-spacing: 2px;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert {
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 24px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgba(255, 68, 0, 0.567);
+}
+
+.alert-txt {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-left: 15px;
+}
+
+.chip {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 193, 0);
+}

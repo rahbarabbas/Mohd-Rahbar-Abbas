@@ -1,0 +1,107 @@
+.container-login {
+    background: #011440;
+    background-image: radial-gradient(#ffffff33 1px, #011440 1px);
+    -webkit-background-size: 30px 30px;
+    background-size: 30px 30px;
+    border-radius: 32px;
+    width: 600px;
+    position: relative;
+    padding: 30px;
+}
+
+.logo-main {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo-main>img {
+    height: 50px;
+    width: auto;
+
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: whitesmoke;
+}
+
+.textfield .helperText {
+    font-size: 0.67em;
+}
+
+.Input {
+    display: flex;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    position: relative;
+}
+
+.Input-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.Input input {
+    border: none;
+    outline: none;
+    min-width: 300px;
+    border-radius: 0px 10px 10px 0px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.Input:focus {
+    border: 2px solid rgb(34, 113, 202);
+}
+
+.email-correct {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: 1s;
+    visibility: hidden;
+}
+
+.login-btn {
+    background-color: #1cc49d;
+    margin-top: 10px;
+}
+
+.logout-btn {
+    background-color: #e11d48;
+    display: none;
+    margin-top: 10px;
+    max-width: 100px;
+}
+
+.otp {
+    display: none;
+}
+
+.loggedIn {
+    display: none;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.loggedIn-email {
+    font-size: 18px;
+    color: whitesmoke
+}
